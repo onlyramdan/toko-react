@@ -1,8 +1,18 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./assets/css/App.css";
+import { Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
 
-export default function App() {
-  return <h1 className="text-xl font-light underline">Set Up pertama</h1>;
+import React from "react";
+
+function App() {
+  return (
+    <div>
+      <Routes>
+        <Route path="/" Component={HomePage} />
+      </Routes>
+    </div>
+  );
 }
+
+export default App;
