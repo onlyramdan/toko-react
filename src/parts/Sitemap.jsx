@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Sitemap() {
   return (
-    <section className="">
-      <div className="border-t border-b border-gray-200 py-12 mt-16 px-4">
+    <section className="sitemap">
+      <div className="border-b bo rder-gray-200 py-12 mt-16 px-4">
         <div className="flex justify-center mb-8">
-          <img src="images/content/logo.png" alt="Luxspace | Fulfill your house with beautiful furniture" />
+          <img src="/images/content/logo.png" alt="Luxspace | Fulfill your house with beautiful furniture" />
         </div>
         <aside className="container mx-auto">
           <div className="flex flex-wrap -mx-4 justify-center">
@@ -13,19 +14,19 @@ export default function Sitemap() {
               <h5 className="text-lg font-semibold mb-2 relative">Overview</h5>
               <ul className="h-0 invisible md:h-auto md:visible overflow-hidden">
                 <li>
-                  <a href="#" className="hover:underline py-1 block">
+                  <Link to="#" className="hover:underline py-1 block">
                     Shipping
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline py-1 block">
+                  <Link to="#" className="hover:underline py-1 block">
                     Refund
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline py-1 block">
+                  <Link to="#" className="hover:underline py-1 block">
                     Promotion
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -33,19 +34,19 @@ export default function Sitemap() {
               <h5 className="text-lg font-semibold mb-2 relative">Company</h5>
               <ul className="h-0 invisible md:h-auto md:visible overflow-hidden">
                 <li>
-                  <a href="#" className="hover:underline py-1 block">
+                  <Link to="#" className="hover:underline py-1 block">
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline py-1 block">
+                  <Link to="#" className="hover:underline py-1 block">
                     Career
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline py-1 block">
+                  <Link to="#" className="hover:underline py-1 block">
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -53,19 +54,19 @@ export default function Sitemap() {
               <h5 className="text-lg font-semibold mb-2 relative">Explore</h5>
               <ul className="h-0 invisible md:h-auto md:visible overflow-hidden">
                 <li>
-                  <a href="#" className="hover:underline py-1 block">
+                  <Link to="#" className="hover:underline py-1 block">
                     Terms & Conds
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline py-1 block">
+                  <Link to="#" className="hover:underline py-1 block">
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline py-1 block">
+                  <Link to="#" className="hover:underline py-1 block">
                     For Developer
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
